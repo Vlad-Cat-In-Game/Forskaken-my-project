@@ -65,7 +65,7 @@ a {
   position: absolute;
   font-size: 80px;
   left: 1400px;
-  bottom: 710px;
+  bottom: 825px;
 }
 
 p {
@@ -97,7 +97,7 @@ p {
   display: flex;
   color: white;
   text-align: center;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   height: 50px;
   background-image: linear-gradient(90deg, #010101, #7f0b9c);
@@ -178,14 +178,14 @@ td {
   display: flex;
 }
 
-.killers_spisok {
+.killers_spisok, .skins_spisok, .music_spisok {
   display: flex;
   justify-content: space-around;
 }
 
 .jason_hide, .coolkid_hide, .john_hide, .noli_hide, .xxx_hide {
   display: none;
-  flex-direction: row;
+  justify-content: center;
   gap: 20px;
 }
 
@@ -193,3 +193,87 @@ td {
   width: 50px;
   height: 50px;
 }
+.achievents_spisok p, .killers_spisok p, .survivors_spisok p, .changer,  .skins_spisok p, a, .music_spisok p{
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+
+.achievents_spisok p:hover, .killers_spisok p:hover, .survivors_spisok p:hover, .skins_spisok p:hover, a:hover, .music_spisok p:hover, .changer:hover  {
+  transform: scale(1.2);
+}
+
+.chaseThemes, .lamasa{
+  border-collapse: collapse;
+  width: 100%;
+  background: transparent;
+}
+
+audio{
+
+  border: 10px solid black;
+  border-radius: 100px;
+  outline: none;
+  background-color: transparent;
+  transition: 0.2s ;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.noob_hide, .elliot_hide, .shed_hide, .guest_hide, .twot_hide, .nos_hide, .build_hide, .duss_hide, .taph_hide, .chance_hide {
+  display: none;
+  justify-content: center;
+  gap: 20px;
+}
+
+.emotos{
+  width: 750px;
+  height: 500px;
+}
+
+.emotes {
+  text-align: center;
+}
+
+.emotoso {
+  width: 365px;
+  height: 225px;
+}
+
+.buy_hide, .mileston_hide, .achieven_hide {
+text-align: center;
+justify-content: center;
+align-items: center;
+display: none;
+}
+
+.odinar {
+  width: 200px;
+  height: 275px;
+
+}
+
+.justik {
+  width: 875px;
+  height: 275px;
+
+}
+
+.dvonar {
+  width: 437.5px;
+  height: 275px;
+
+}
+
+.wida {
+  width: 650px;
+  height: 200px;
+
+}
+
+.chase_hide, .lms_hide {
+  display: none;
+}
+
+
